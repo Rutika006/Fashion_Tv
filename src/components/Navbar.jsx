@@ -29,7 +29,7 @@ const Navbar = ({ refs }) => {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className={`fixed top-0 left-0 w-full z-50 flex justify-between items-center p-4 ${
         scrolled
-          ? "bg-gradient-to-r from-pink-500 to-purple-700 shadow-md"
+          ? "bg-blue-800 shadow-md"
           : "bg-transparent shadow-md backdrop-blur-md border-b border-white/10"
       } text-white`}
     >
@@ -40,7 +40,7 @@ const Navbar = ({ refs }) => {
         className="font-extrabold text-xl md:text-3xl sm:text-2xl cursor-pointer"
         onClick={() => scrollTo(refs.bgRef)}
       >
-        FashionTv
+        FashionTV
       </motion.h1>
 
       {/* Desktop Menu */}

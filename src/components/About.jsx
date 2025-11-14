@@ -11,8 +11,8 @@ const About = () => {
          transition={{duration:1.0}}
          viewport={{once:true}}
          >
-            <h2 className='text-4xl md:text-4xl mb-6 font-semibold text-center'>About <span className='text-yellow-400 font-extrabold'>FashionTv</span></h2>
-            <p className='text-lg md:text-xl leading-relaxed bg-gradient-to-r from-purple-950 to-blue-500 bg-clip-text text-transparent animate-pulse font-extrabold'>Since its inception in 1997, FashionTV has been setting the highest standards for excellence in fashion and lifestyle broadcasting. The only TV equivalent to fashion print media appealing to everyone interested in fashion, style, beauty and trends, FashionTV understands and caters to its audience by providing original, unbiased and informative programming not available on other networks. A strong image and exceptional awareness of FashionTV’s brand projects a unique, cosmopolitan and modern style allowing for influential partnerships with many global brands</p>
+            <h2 className='text-4xl md:text-4xl mb-6 font-semibold text-center'>About <span className='text-blue-700 font-extrabold'>FashionTV</span></h2>
+            <p className='text-lg md:text-xl leading-relaxed bg-white bg-clip-text text-transparent '>Since its inception in 1997, FashionTV has been setting the highest standards for excellence in fashion and lifestyle broadcasting. The only TV equivalent to fashion print media appealing to everyone interested in fashion, style, beauty and trends, FashionTV understands and caters to its audience by providing original, unbiased and informative programming not available on other networks. A strong image and exceptional awareness of FashionTV’s brand projects a unique, cosmopolitan and modern style allowing for influential partnerships with many global brands</p>
          </motion.div>
 
          <motion.div 

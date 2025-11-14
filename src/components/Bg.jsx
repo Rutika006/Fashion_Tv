@@ -21,7 +21,7 @@ const Bg = () => {
          transition={{delay:0.5,duration:1}}
          className='relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4'
          >
-         <h1 className='text-4xl md:text-6xl font-extralight mb-4 sm:text-7xl'>FashionTv</h1>
+         <h1 className='text-4xl md:text-6xl font-extralight mb-4 sm:text-7xl'>FashionTV</h1>
          <p className='text-lg md:text-2xl mb-6 font-light sm:text-5xl'>Style Every Moment✨</p>
          </motion.div>
     </section>
