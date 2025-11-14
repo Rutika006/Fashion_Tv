@@ -18,7 +18,7 @@ const Footer = () => {
             href="https://www.instagram.com/fashiontv.in/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-pink-500 transition " 
+            className="hover:text-pink-500 transition animate-bounce" 
           >
             <FaInstagram />
           </a>
@@ -26,7 +26,7 @@ const Footer = () => {
             href="https://www.facebook.com/media/set/?set=a.550399830448729&vanity=FTV&utm_source=chatgpt.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-600 transition"
+            className="hover:text-blue-600 transition animate-bounce"
           >
             <FaFacebookF />
           </a>
@@ -34,7 +34,7 @@ const Footer = () => {
             href="https://twitter.com/FashionTV"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-blue-400 transition"
+            className="hover:text-blue-400 transition animate-bounce"
           >
             <FaTwitter />
           </a>
@@ -42,7 +42,7 @@ const Footer = () => {
             href="https://www.youtube.com/FashionTV?utm_source=chatgpt.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-red-600 transition"
+            className="hover:text-red-600 transition animate-bounce"
           >
             <FaYoutube />
           </a>
