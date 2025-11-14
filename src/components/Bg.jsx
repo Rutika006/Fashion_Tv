@@ -1,5 +1,4 @@
 import React from 'react'
-import bgVideo from "../assets/fashion_bg.mp4"
 import { motion } from 'framer-motion'
 
 const Bg = () => {
@@ -7,7 +6,7 @@ const Bg = () => {
     <section className='relative h-screen w-full overflow-hidden'>
          <video
          className='absolute top-0 left-0 w-full h-full object-cover'
-         src={bgVideo}
+         src="/fashion_bg.mp4"
          autoPlay
          loop
          muted
